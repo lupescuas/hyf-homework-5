@@ -26,7 +26,7 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  font-family: 'Raleway' !important;
+  font-family: 'Raleway', serif !important;
   letter-spacing: 0.2em;
   font-weight: normal;
 }
