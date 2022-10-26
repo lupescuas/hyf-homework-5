@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  width: auto;
+  margin: 0 auto;
+  min-width: 700px;
+}
+
+#heading {
+  text-align: center;
+  background-color: #242D3E;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 0.3em;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Raleway' !important;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+}
+
+.container {
+  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.side {
+  display: inline-block;
+  padding-top: 40px;
+  min-width: 300px;
+}
+
+
+/* Styling the left side */
+.left {
+  display: block;
+  width: 30%;
+  align-items: center;
+}
+
+img{
+  position: relative;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 70px;
+}
+
+
+.details {
+  margin-left: 20px;
+}
+
+.details p {
+  line-height: 1.5em;
+}
+
+.address {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 1.5em;
+  display: block;
+  font-style: normal;
+  list-style-type: none;
+
+}
+
+svg {
+  width: 14px;
+  fill: #A9976D;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+/* Progressing bar for languages */
+.progress_container {
+  background-color: #BFBFC1;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 10px;
+  width: 60%;
+  background-color: #A9976D;
+  border-radius: 16px;
+}
+
+
+/* Styling the right side */
+.right {
+  display: block;
+  width: 70%;
+  line-height: 1.5em;
+}
+
+.my_display {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-right: 30px;
+}
+
+
+/* General styles */
+.no_bold {
+  font-weight: normal;
+}
+
+.padding {
+  margin: 0 70px;
+}
+
+.no_style {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.double_line{
+  line-height: 2em;
+}
+
+ul li::marker {
+  color: #A9976D;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  width: 400px;
+  height: 300px;
+}
+
+/* Colors*/
+.color {
+  color: #A9976D !important;
+}
+
+.bg_color {
+  background-color: #f7f7f9;
+}
